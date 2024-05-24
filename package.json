@@ -4,7 +4,7 @@
   "description": "rest api drinks",
   "main": "server.js",
   "scripts": {
-    "start": "node ./server.js",
+    "start": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
